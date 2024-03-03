@@ -7,7 +7,7 @@ I used:
 
 ## Problem to solve
 
-When I ran a Test Case to open a URL in Chrome brower, I saw a text "Chrome is being controlled by automated test software".
+When I ran a Test Case to open a URL in Chrome browser, a text "Chrome is being controlled by automated test software" comes up.
 
 ![with](https://kazurayam.github.io/ks_chrome_is_controlled_by/images/With_the_message.png)
 
@@ -25,7 +25,7 @@ options.setExperimentalOption("excludeSwitches", new String[]{"enable-automation
 WebDriver driver = new ChromeDriver(options);
 ```
 
-But how to do the same in Katalon Studio for `WebUI.openBrower()` keyword?
+But how to do the same for chrome opened by `WebUI.openBrower()` keyword in Katalon Studio?
 
 ## Solution description
 
@@ -37,3 +37,4 @@ then the message has disappered:
 
 ![without](https://kazurayam.github.io/ks_chrome_is_controlled_by/images/Without_the_message.png)
 
+I am happy now.
